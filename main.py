@@ -30,11 +30,11 @@ def report():
 
     result = KonkoorDate - dt_string1
 
-    my_message = "The remaining time is: {}".format(result)
+    my_message = "کشکص چاقال  تا کنکور کیری فقط و فقط {}مونده به جای کصچرخ کیری تو تلگرام برو اون کتاب کیرو باز کن درستو بخون نترس کتابه نمیخورت . شو بخیر".format(result)
     telegram_bot_sendtext(my_message)
 
 
-schedule.every(5).seconds.do(report)
+schedule.every(3600).seconds.do(report)
 
 while True:
     schedule.run_pending()
