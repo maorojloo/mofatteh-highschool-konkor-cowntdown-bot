@@ -26,7 +26,7 @@ def report():
     dt_string = IranDatetime
     dt_string1 = datetime.strptime(dt_string, "%Y/%m/%d %H:%M:%S")
 
-    KonkoorDate = datetime(year=2021, month=7, day=2, hour=7, minute=0, second=0)
+    KonkoorDate = datetime(year=2021, month=7, day=1, hour=7, minute=0, second=0)
 
     result = KonkoorDate - dt_string1
 
